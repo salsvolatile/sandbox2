@@ -20,7 +20,7 @@ print selectstuff
 listylist = ["p1","p2","p3"]
 print listylist
 urltoscrape = "http://site.com/"
-for blah in listylist
+for blah in listylist:
   print blah
   fullurl = urltoscrape+blah
   print fullurl
