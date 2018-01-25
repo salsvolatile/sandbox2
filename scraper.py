@@ -5,6 +5,8 @@ import scraperwiki
 # import lxml.html
 #
 print "Hello World"
+myname="Sally"
+print myname
 # # Read in a page
 #ME: replace foo.com with site you want to scrape
 # html = scraperwiki.scrape("http://foo.com")
