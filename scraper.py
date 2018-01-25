@@ -15,7 +15,7 @@ print html
 root = lxml.html.fromstring(html)
 print root
 root.cssselect("a")
-selectstuff = root.cssselect("div[align='left']")
+selectstuff = root.cssselect("a")
 print selectstuff
 for i in selectstuff:
   print i.text #.txt grabs text content of tags
