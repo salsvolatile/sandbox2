@@ -14,7 +14,7 @@ print html
 # # Find something on the page using css selectors
 root = lxml.html.fromstring(html)
 print root
-root.cssselect("div[align='left']")
+root.cssselect("a")
 selectstuff = root.cssselect("div[align='left']")
 print selectstuff
 listylist = ["p1","p2","p3"]
