@@ -19,7 +19,7 @@ selectstuff = root.cssselect("div[align='left']")
 print selectstuff
 for i in selectstuff:
   print i.text #.txt grabs text content of tags
-  print i.attrib['href'] #attrib grabs the value of the attribute specified
+  print i.attrib['href'] #.attrib grabs the value of the attribute specified
   
 
 #
